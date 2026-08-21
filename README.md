@@ -10,7 +10,7 @@ The environment is deployed within a custom VPC utilizing a public subnet. The s
 
 The Apache web server and its content are hosted on the EC2 instance, with data stored on the EBS volume. An S3 bucket was also created, and an IAM role was attached to the EC2 instance to provide authorized access to objects stored in the bucket without using locally stored AWS credentials.
 
-<img width="251" height="660" alt="Lab1 drawio" src="https://github.com/user-attachments/assets/28ae4b2d-ae60-4d9a-bb69-93ca4059045f" />
+<img width="251" height="660" alt="Lab1 drawio" src="Lab1.drawio.png" />
 
 Amazon CloudWatch is used to monitor EC2 performance and health metrics.
 

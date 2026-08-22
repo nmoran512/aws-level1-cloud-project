@@ -93,7 +93,6 @@ Linux filesystem permissions remain an important part of managing applications h
 <li>No AWS keys stored on EC2</li>
 <li>IAM role used for S3 authentication</li>
 <li>Broad S3 permissions used for lab validation. Should be replaced with leas-privilege permissions in production.</li>
-## What I Learned
 
 ## Future Improvements
 Future improvements will include private subnets, load balancing, HTTPS, least-privileged S3 policies, CloudWatch Alarms, and Terraform
